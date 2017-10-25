@@ -51,6 +51,7 @@ div {
 
 
 .scroll-down {
+  position: fixed;
   bottom: 30px;
   left: 50%;
   transform: translateX(-50%);
@@ -96,9 +97,10 @@ div {
 
 
   .scroll_down {
-    margin-left: 50%;
+    left: 50%;
     transform: translateX(-50%);
     margin-top: 80px;
+    position: fixed;
 
   }
 
@@ -181,9 +183,10 @@ div {
 
   }
   .scroll_down {
-    margin-left: 50%;
+    left: 50%;
     transform: translateX(-50%);
     margin-top: 300px;
+    position: fixed;
 
   }
   h1 {
