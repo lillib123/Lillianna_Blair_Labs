@@ -49,13 +49,11 @@ div {
   padding-left: 50%;
 }
 
-
 .scroll-down {
   position: fixed;
   bottom: 30px;
   left: 50%;
   transform: translateX(-50%);
-
 }
 
 @media only screen and (min-width: 922px){
@@ -118,6 +116,7 @@ div {
     right: 60px;
     background-color: rgba(247, 193, 162, 0.7);
     z-index: 1;
+    transition: 3s ease;
   }
   #circle2 {
     width: 100px;
@@ -127,6 +126,7 @@ div {
     left: auto;
     right: 70px;
     background-color: rgba(207, 130, 213, 0.6);
+    transition: 3s ease;
 
   }
   #circle3 {
@@ -137,6 +137,7 @@ div {
     left: auto;
     right: 150px;
     background-color: rgba(247, 136, 167, 0.6);
+    transition: 3s ease;
 
   }
 
@@ -159,6 +160,7 @@ div {
     right: 70px;
     background-color: rgba(247, 193, 162, 0.7);
     z-index: 1;
+    transition: 3s ease;
   }
 
   #circle2 {
@@ -169,6 +171,7 @@ div {
     left: 550px;
     right: 100px;
     background-color: rgba(207, 130, 213, 0.6);
+    transition: 3s ease;
 
   }
 
@@ -180,6 +183,7 @@ div {
     left: 275px;;
     right: 250px;
     background-color: rgba(247, 136, 167, 0.6);
+    transition: 3s ease;
 
   }
   .scroll_down {
@@ -201,6 +205,21 @@ div {
     height: 70%;
     position: absolute;
     right: 0;
+  }
+
+  #circle1:hover {
+    opacity: 0;
+    transition: 3s ease;
+  }
+
+  #circle2:hover {
+    opacity: 0;
+    transition: 3s ease;
+  }
+
+  #circle3:hover {
+    opacity: 0;
+    transition: 3s ease;
   }
 
 }
